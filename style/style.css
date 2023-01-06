@@ -14,10 +14,6 @@ body {
 a {
   text-decoration: none;
 }
-ul,
-li {
-  list-style: none;
-}
 
 h1 {
   font-size: 65px;
@@ -91,3 +87,41 @@ li {
   margin-bottom: 30px;
 }
 
+/* failures section style */
+
+.failures {
+  display: flex;
+  align-items: center;
+  gap: 87px;
+  margin-bottom: 130px;
+}
+
+.failures-left img {
+  display: block;
+  width: 560px;
+  height: 700px;
+  object-fit: cover;
+}
+
+.failures-right {
+  margin-bottom: -120px;
+}
+
+.failures-title {
+  max-width: 290px;
+  margin-bottom: 24px;
+}
+
+.failures-info {
+  max-width: 415px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+
+.failures-list-item {
+  margin-bottom: 8px;
+  color: #444343;
+  list-style: none;
+  background: url(../assets/icons/tick.svg) no-repeat left center;
+  padding-left: 30px;
+}
