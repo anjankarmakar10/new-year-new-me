@@ -41,3 +41,53 @@ li {
   font-size: 16px;
   line-height: 26px;
 }
+
+.container {
+  max-width: 1156px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.button {
+  padding-inline: 25px;
+  padding-block: 22px 20px;
+  background-color: #fff;
+  color: #005fac;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Header Section Style*/
+
+.header {
+  min-height: 110vh;
+  background: url(../assets/images/banner3.png) no-repeat center / cover;
+  display: flex;
+  align-items: center;
+  margin-bottom: 130px;
+}
+
+.hero {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.hero-title {
+  max-width: 525px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.hero-subtitle {
+  color: #fff;
+  max-width: 490px;
+  margin-bottom: 30px;
+}
+
