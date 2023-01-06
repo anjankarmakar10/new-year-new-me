@@ -125,3 +125,44 @@ li {
   background: url(../assets/icons/tick.svg) no-repeat left center;
   padding-left: 30px;
 }
+
+/* My Plan Section style*/
+
+.my-plans {
+  text-align: center;
+  margin-bottom: 135px;
+}
+
+.my-plans-heading {
+  margin-bottom: 50px;
+}
+
+.my-plans-container {
+  display: flex;
+  gap: 85px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan img {
+  width: 92px;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.plan-title {
+  margin-bottom: 16px;
+}
+
+.plan-info {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #737272;
+}
