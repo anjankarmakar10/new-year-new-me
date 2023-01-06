@@ -166,3 +166,21 @@ li {
   line-height: 30px;
   color: #737272;
 }
+
+/* Call to action section style */
+.cta {
+  max-height: 300px;
+  background: url(../assets/images/watch.png) no-repeat center/ cover;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 130px;
+}
+.cta-content {
+  background: linear-gradient(to right, #01519c, #466bb46e);
+  padding: 60px 65px;
+}
+.cta-title {
+  max-width: 460px;
+  color: #fff;
+  margin-bottom: 24px;
+}
