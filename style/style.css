@@ -130,11 +130,11 @@ li {
 
 .my-plans {
   text-align: center;
-  margin-bottom: 135px;
+  margin-bottom: 130px;
 }
 
 .my-plans-heading {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .my-plans-container {
@@ -165,6 +165,52 @@ li {
   font-weight: 500;
   line-height: 30px;
   color: #737272;
+}
+
+/* Todo section styles */
+.todo {
+  margin-bottom: 135px;
+  text-align: center;
+}
+.todo-heading {
+  margin-bottom: 60px;
+}
+.todo-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 85px;
+  flex-wrap: wrap;
+}
+
+.todo-card {
+  padding: 50px 45px;
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.todo-card .meditation {
+  display: block;
+  width: 100px;
+  margin-bottom: -10px;
+}
+.todo-title{
+  margin-top: 24px;
+}
+.todo-info{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #737272;
+  margin-top: 6px;
 }
 
 /* Call to action section style */
